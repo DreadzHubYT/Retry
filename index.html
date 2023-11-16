@@ -73,6 +73,7 @@
 </head>
 <body>
 
+    
 <div class="navbar">
     <a class="panic-button" href="https://mybedford.schoology.com">
         <img class="panic-image" src="https://cdn-icons-png.flaticon.com/512/564/564619.png" alt="Panic Icon">Panic!
@@ -86,6 +87,43 @@
     <a class="nav-button" href="settings.html">Settings</a>
 </div>
 
-<img data-bss-disabled-mobile="true" data-aos="zoom-in" data-aos-duration="550" data-aos-once="true" src="Assets/logo.png" style="center-align: left;margin-bottom: 36px;" width="250" height="95"><strong><h5 id="randomText"> </h5></strong><script>
+<img data-bss-disabled-mobile="true" data-aos="zoom-in" data-aos-duration="550" data-aos-once="true" src="Assets/logo.png" style="center-align: left;margin-bottom: 36px;" width="250" height="95"><strong><h5 id="randomText">Welcome!</h5></strong><script>
+       var textOptions = [
+        "do your homework or not idc",
+        "Rip 3kh0!",
+        "Now with an unblocker! ",
+        "The site to cure boredness ",
+        "Games Games GAMES!",
+        "im playing this native -ly in my browser",
+        "What is Google Sites?",
+        "No",
+        "insert text here",
+        "Unblocked!",
+        "Welcome To The New Native!",
+        "Did you know we are open source? Fork US!",
+        "https://discord.gg/Pprt5zjv9h",
+        "20% Code 80% ChatGPT!",
+        "Gas Gas Gas",
+        "Daniel gets no girls",
+          "3.0 SOOOOOOOOOON ",
+          "whats games.json in 3.0 ????",
+          "Tab cloaks in 3.0!!!",
+          "about:blank in 3.0 OMG",
+          "Theme switcher in 3.0 OMG",
+          "Clean Logo in 3.0 OMG",
+          "w 3.0"
+      ];
+
+      // Function to generate random index
+      function getRandomIndex(max) {
+        return Math.floor(Math.random() * max);
+      }
+
+      // Function to update the text
+      function updateText() {
+        var randomIndex = getRandomIndex(textOptions.length);
+        var randomText = textOptions[randomIndex];
+        document.getElementById("randomText").textContent = randomText;
+      }
 </body>
 </html>
